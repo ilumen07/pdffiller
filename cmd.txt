@@ -1,0 +1,13 @@
+docker build -t pdffiller .
+docker tag pdffiller ilumen/pdffiller
+docker push ilumen/pdffiller
+
+
+
+# PULL image
+docker pull ilumen/pdffiller
+
+# USE 
+#docker run -d -p 8080:8080 ilumen/pdffiller node server.js IP PORT
+# OR
+#docker run -p 8080:8080 ilumen/pdffiller node server.js 127.0.0.1 8080

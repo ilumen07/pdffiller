@@ -1,0 +1,15 @@
+{
+  "name": "pdffiller",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "First Last <first.last@example.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": ""
+  },
+  "dependencies": {
+    "http": "",
+    "fs": "",
+    "access-log": ""
+  }
+}
